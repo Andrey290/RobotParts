@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (lds01_driver) JobQueued: {'identifier': 'lds01_driver', 'dependencies': OrderedDict()}
+[0.001853] (lds01_driver) JobStarted: {'identifier': 'lds01_driver'}
+[0.042962] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'cmake'}
+[0.047190] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'build'}
+[0.050187] (lds01_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', '--', '-j4', '-l4'], 'cwd': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andrey', 'SSH_CLIENT': '192.168.131.220 47274 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andrey', 'OLDPWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andrey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/andrey/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'SSH_CONNECTION': '192.168.131.220 47274 192.168.131.188 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099418] (-) TimerEvent: {}
+[0.201269] (-) TimerEvent: {}
+[0.302183] (-) TimerEvent: {}
+[0.382271] (lds01_driver) StdoutLine: {'line': b'[ 66%] Built target parser_lib\n'}
+[0.402383] (-) TimerEvent: {}
+[0.503686] (-) TimerEvent: {}
+[0.604413] (-) TimerEvent: {}
+[0.608309] (lds01_driver) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o\x1b[0m\n'}
+[0.704622] (-) TimerEvent: {}
+[0.805251] (-) TimerEvent: {}
+[0.905937] (-) TimerEvent: {}
+[1.006623] (-) TimerEvent: {}
+[1.107318] (-) TimerEvent: {}
+[1.208057] (-) TimerEvent: {}
+[1.308701] (-) TimerEvent: {}
+[1.409360] (-) TimerEvent: {}
+[1.510033] (-) TimerEvent: {}
+[1.610708] (-) TimerEvent: {}
+[1.711363] (-) TimerEvent: {}
+[1.812083] (-) TimerEvent: {}
+[1.912806] (-) TimerEvent: {}
+[2.013458] (-) TimerEvent: {}
+[2.114147] (-) TimerEvent: {}
+[2.214858] (-) TimerEvent: {}
+[2.315647] (-) TimerEvent: {}
+[2.416494] (-) TimerEvent: {}
+[2.517292] (-) TimerEvent: {}
+[2.618122] (-) TimerEvent: {}
+[2.718910] (-) TimerEvent: {}
+[2.819687] (-) TimerEvent: {}
+[2.920406] (-) TimerEvent: {}
+[3.021296] (-) TimerEvent: {}
+[3.122223] (-) TimerEvent: {}
+[3.223021] (-) TimerEvent: {}
+[3.323856] (-) TimerEvent: {}
+[3.424650] (-) TimerEvent: {}
+[3.525415] (-) TimerEvent: {}
+[3.626310] (-) TimerEvent: {}
+[3.727123] (-) TimerEvent: {}
+[3.828024] (-) TimerEvent: {}
+[3.928803] (-) TimerEvent: {}
+[4.029574] (-) TimerEvent: {}
+[4.130285] (-) TimerEvent: {}
+[4.231091] (-) TimerEvent: {}
+[4.332073] (-) TimerEvent: {}
+[4.432953] (-) TimerEvent: {}
+[4.533800] (-) TimerEvent: {}
+[4.634663] (-) TimerEvent: {}
+[4.735598] (-) TimerEvent: {}
+[4.836386] (-) TimerEvent: {}
+[4.937192] (-) TimerEvent: {}
+[5.038058] (-) TimerEvent: {}
+[5.138872] (-) TimerEvent: {}
+[5.239697] (-) TimerEvent: {}
+[5.340421] (-) TimerEvent: {}
+[5.441187] (-) TimerEvent: {}
+[5.542026] (-) TimerEvent: {}
+[5.642969] (-) TimerEvent: {}
+[5.743887] (-) TimerEvent: {}
+[5.844679] (-) TimerEvent: {}
+[5.945432] (-) TimerEvent: {}
+[6.046247] (-) TimerEvent: {}
+[6.147033] (-) TimerEvent: {}
+[6.247833] (-) TimerEvent: {}
+[6.348619] (-) TimerEvent: {}
+[6.449599] (-) TimerEvent: {}
+[6.550654] (-) TimerEvent: {}
+[6.651437] (-) TimerEvent: {}
+[6.752236] (-) TimerEvent: {}
+[6.853063] (-) TimerEvent: {}
+[6.953968] (-) TimerEvent: {}
+[7.054903] (-) TimerEvent: {}
+[7.155681] (-) TimerEvent: {}
+[7.256414] (-) TimerEvent: {}
+[7.357223] (-) TimerEvent: {}
+[7.458081] (-) TimerEvent: {}
+[7.558889] (-) TimerEvent: {}
+[7.659677] (-) TimerEvent: {}
+[7.760402] (-) TimerEvent: {}
+[7.861216] (-) TimerEvent: {}
+[7.962081] (-) TimerEvent: {}
+[8.062904] (-) TimerEvent: {}
+[8.163669] (-) TimerEvent: {}
+[8.264465] (-) TimerEvent: {}
+[8.365638] (-) TimerEvent: {}
+[8.466864] (-) TimerEvent: {}
+[8.567633] (-) TimerEvent: {}
+[8.668388] (-) TimerEvent: {}
+[8.769245] (-) TimerEvent: {}
+[8.870214] (-) TimerEvent: {}
+[8.971155] (-) TimerEvent: {}
+[9.071975] (-) TimerEvent: {}
+[9.172730] (-) TimerEvent: {}
+[9.273510] (-) TimerEvent: {}
+[9.374282] (-) TimerEvent: {}
+[9.475100] (-) TimerEvent: {}
+[9.575909] (-) TimerEvent: {}
+[9.676690] (-) TimerEvent: {}
+[9.777501] (-) TimerEvent: {}
+[9.878311] (-) TimerEvent: {}
+[9.979114] (-) TimerEvent: {}
+[10.079920] (-) TimerEvent: {}
+[10.180673] (-) TimerEvent: {}
+[10.281418] (-) TimerEvent: {}
+[10.382240] (-) TimerEvent: {}
+[10.483033] (-) TimerEvent: {}
+[10.583794] (-) TimerEvent: {}
+[10.684623] (-) TimerEvent: {}
+[10.785329] (-) TimerEvent: {}
+[10.886119] (-) TimerEvent: {}
+[10.986930] (-) TimerEvent: {}
+[11.087679] (-) TimerEvent: {}
+[11.188419] (-) TimerEvent: {}
+[11.289214] (-) TimerEvent: {}
+[11.389987] (-) TimerEvent: {}
+[11.490767] (-) TimerEvent: {}
+[11.591596] (-) TimerEvent: {}
+[11.692356] (-) TimerEvent: {}
+[11.793173] (-) TimerEvent: {}
+[11.894021] (-) TimerEvent: {}
+[11.994784] (-) TimerEvent: {}
+[12.095571] (-) TimerEvent: {}
+[12.196300] (-) TimerEvent: {}
+[12.297160] (-) TimerEvent: {}
+[12.397960] (-) TimerEvent: {}
+[12.498695] (-) TimerEvent: {}
+[12.599486] (-) TimerEvent: {}
+[12.700292] (-) TimerEvent: {}
+[12.801093] (-) TimerEvent: {}
+[12.901906] (-) TimerEvent: {}
+[13.002675] (-) TimerEvent: {}
+[13.103437] (-) TimerEvent: {}
+[13.204264] (-) TimerEvent: {}
+[13.305061] (-) TimerEvent: {}
+[13.405864] (-) TimerEvent: {}
+[13.506691] (-) TimerEvent: {}
+[13.607441] (-) TimerEvent: {}
+[13.708219] (-) TimerEvent: {}
+[13.809014] (-) TimerEvent: {}
+[13.909849] (-) TimerEvent: {}
+[14.010683] (-) TimerEvent: {}
+[14.111665] (-) TimerEvent: {}
+[14.212472] (-) TimerEvent: {}
+[14.313429] (-) TimerEvent: {}
+[14.414228] (-) TimerEvent: {}
+[14.515042] (-) TimerEvent: {}
+[14.615853] (-) TimerEvent: {}
+[14.716721] (-) TimerEvent: {}
+[14.817634] (-) TimerEvent: {}
+[14.918559] (-) TimerEvent: {}
+[15.019459] (-) TimerEvent: {}
+[15.120726] (-) TimerEvent: {}
+[15.221491] (-) TimerEvent: {}
+[15.322298] (-) TimerEvent: {}
+[15.423134] (-) TimerEvent: {}
+[15.523997] (-) TimerEvent: {}
+[15.624814] (-) TimerEvent: {}
+[15.725633] (-) TimerEvent: {}
+[15.826447] (-) TimerEvent: {}
+[15.927250] (-) TimerEvent: {}
+[16.028033] (-) TimerEvent: {}
+[16.128800] (-) TimerEvent: {}
+[16.229588] (-) TimerEvent: {}
+[16.330340] (-) TimerEvent: {}
+[16.431204] (-) TimerEvent: {}
+[16.532027] (-) TimerEvent: {}
+[16.632852] (-) TimerEvent: {}
+[16.733631] (-) TimerEvent: {}
+[16.834361] (-) TimerEvent: {}
+[16.935140] (-) TimerEvent: {}
+[17.036048] (-) TimerEvent: {}
+[17.136938] (-) TimerEvent: {}
+[17.237691] (-) TimerEvent: {}
+[17.338418] (-) TimerEvent: {}
+[17.439244] (-) TimerEvent: {}
+[17.540063] (-) TimerEvent: {}
+[17.641028] (-) TimerEvent: {}
+[17.741812] (-) TimerEvent: {}
+[17.842594] (-) TimerEvent: {}
+[17.943373] (-) TimerEvent: {}
+[18.044189] (-) TimerEvent: {}
+[18.145021] (-) TimerEvent: {}
+[18.245873] (-) TimerEvent: {}
+[18.346738] (-) TimerEvent: {}
+[18.447502] (-) TimerEvent: {}
+[18.548372] (-) TimerEvent: {}
+[18.649192] (-) TimerEvent: {}
+[18.750008] (-) TimerEvent: {}
+[18.850828] (-) TimerEvent: {}
+[18.951620] (-) TimerEvent: {}
+[19.052351] (-) TimerEvent: {}
+[19.153101] (-) TimerEvent: {}
+[19.253857] (-) TimerEvent: {}
+[19.354581] (-) TimerEvent: {}
+[19.455271] (-) TimerEvent: {}
+[19.556095] (-) TimerEvent: {}
+[19.656945] (-) TimerEvent: {}
+[19.758122] (-) TimerEvent: {}
+[19.859226] (-) TimerEvent: {}
+[19.960210] (-) TimerEvent: {}
+[20.061143] (-) TimerEvent: {}
+[20.161974] (-) TimerEvent: {}
+[20.262789] (-) TimerEvent: {}
+[20.363745] (-) TimerEvent: {}
+[20.465083] (-) TimerEvent: {}
+[20.566451] (-) TimerEvent: {}
+[20.587228] (lds01_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_node\x1b[0m\n'}
+[20.666699] (-) TimerEvent: {}
+[20.767656] (-) TimerEvent: {}
+[20.869162] (-) TimerEvent: {}
+[20.970201] (-) TimerEvent: {}
+[21.071041] (-) TimerEvent: {}
+[21.172143] (-) TimerEvent: {}
+[21.273289] (-) TimerEvent: {}
+[21.374160] (-) TimerEvent: {}
+[21.475047] (-) TimerEvent: {}
+[21.575948] (-) TimerEvent: {}
+[21.676693] (-) TimerEvent: {}
+[21.723005] (lds01_driver) StdoutLine: {'line': b'[100%] Built target lidar_node\n'}
+[21.776952] (-) TimerEvent: {}
+[21.781905] (lds01_driver) CommandEnded: {'returncode': 0}
+[21.786490] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'install'}
+[21.839030] (lds01_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver'], 'cwd': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andrey', 'SSH_CLIENT': '192.168.131.220 47274 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andrey', 'OLDPWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andrey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/andrey/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'SSH_CONNECTION': '192.168.131.220 47274 192.168.131.188 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[21.877148] (-) TimerEvent: {}
+[21.883331] (lds01_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.885903] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node\n'}
+[21.900115] (lds01_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node" to ""\n'}
+[21.900940] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/libparser_lib.a\n'}
+[21.901583] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver\n'}
+[21.902140] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver\n'}
+[21.902757] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/parser.h\n'}
+[21.903260] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/serial.h\n'}
+[21.903921] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/gpio.h\n'}
+[21.904562] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver\n'}
+[21.905113] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/.keep\n'}
+[21.905698] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/library_path.sh\n'}
+[21.906294] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/library_path.dsv\n'}
+[21.906839] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/package_run_dependencies/lds01_driver\n'}
+[21.907384] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/parent_prefix_path/lds01_driver\n'}
+[21.907956] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/ament_prefix_path.sh\n'}
+[21.908561] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/ament_prefix_path.dsv\n'}
+[21.909082] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/path.sh\n'}
+[21.909632] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/path.dsv\n'}
+[21.910069] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.bash\n'}
+[21.910457] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.sh\n'}
+[21.911062] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.zsh\n'}
+[21.911538] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.dsv\n'}
+[21.912183] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/package.dsv\n'}
+[21.912702] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/packages/lds01_driver\n'}
+[21.913234] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.913811] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.914318] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/lds01_driverConfig.cmake\n'}
+[21.914811] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/lds01_driverConfig-version.cmake\n'}
+[21.915425] (lds01_driver) StdoutLine: {'line': b'-- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/package.xml\n'}
+[21.920202] (lds01_driver) CommandEnded: {'returncode': 0}
+[21.977269] (-) TimerEvent: {}
+[22.002749] (lds01_driver) JobEnded: {'identifier': 'lds01_driver', 'rc': 0}
+[22.007569] (-) EventReactorShutdown: {}

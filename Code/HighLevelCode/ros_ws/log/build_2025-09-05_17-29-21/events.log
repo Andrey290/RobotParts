@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.001246] (lds01_driver) JobQueued: {'identifier': 'lds01_driver', 'dependencies': OrderedDict()}
+[0.003597] (lds01_driver) JobStarted: {'identifier': 'lds01_driver'}
+[0.043427] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'cmake'}
+[0.048338] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'build'}
+[0.052203] (lds01_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', '--', '-j4', '-l4'], 'cwd': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andrey', 'SSH_CLIENT': '192.168.131.220 45696 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andrey', 'OLDPWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andrey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/andrey/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'SSH_CONNECTION': '192.168.131.220 45696 192.168.131.188 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099316] (-) TimerEvent: {}
+[0.200959] (-) TimerEvent: {}
+[0.302526] (-) TimerEvent: {}
+[0.402537] (lds01_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/parser_lib.dir/src/serial.c.o\x1b[0m\n'}
+[0.404503] (-) TimerEvent: {}
+[0.506006] (-) TimerEvent: {}
+[0.606876] (-) TimerEvent: {}
+[0.648288] (lds01_driver) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C static library libparser_lib.a\x1b[0m\n'}
+[0.707081] (-) TimerEvent: {}
+[0.807828] (-) TimerEvent: {}
+[0.915820] (-) TimerEvent: {}
+[0.923519] (lds01_driver) StdoutLine: {'line': b'[ 66%] Built target parser_lib\n'}
+[1.016024] (-) TimerEvent: {}
+[1.117039] (lds01_driver) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o\x1b[0m\n'}
+[1.118936] (-) TimerEvent: {}
+[1.220241] (-) TimerEvent: {}
+[1.321279] (-) TimerEvent: {}
+[1.421964] (-) TimerEvent: {}
+[1.522602] (-) TimerEvent: {}
+[1.623362] (-) TimerEvent: {}
+[1.724283] (-) TimerEvent: {}
+[1.825027] (-) TimerEvent: {}
+[1.925680] (-) TimerEvent: {}
+[2.026351] (-) TimerEvent: {}
+[2.127100] (-) TimerEvent: {}
+[2.227913] (-) TimerEvent: {}
+[2.328890] (-) TimerEvent: {}
+[2.430137] (-) TimerEvent: {}
+[2.531407] (-) TimerEvent: {}
+[3.339010] (-) TimerEvent: {}
+[3.439948] (-) TimerEvent: {}
+[3.540626] (-) TimerEvent: {}
+[3.641362] (-) TimerEvent: {}
+[3.742081] (-) TimerEvent: {}
+[3.842813] (-) TimerEvent: {}
+[3.943747] (-) TimerEvent: {}
+[4.044581] (-) TimerEvent: {}
+[4.145445] (-) TimerEvent: {}
+[4.246200] (-) TimerEvent: {}
+[4.346938] (-) TimerEvent: {}
+[4.447823] (-) TimerEvent: {}
+[4.548548] (-) TimerEvent: {}
+[4.649302] (-) TimerEvent: {}
+[4.750026] (-) TimerEvent: {}
+[4.850653] (-) TimerEvent: {}
+[4.951394] (-) TimerEvent: {}
+[5.052281] (-) TimerEvent: {}
+[5.153087] (-) TimerEvent: {}
+[5.253853] (-) TimerEvent: {}
+[5.354729] (-) TimerEvent: {}
+[5.455465] (-) TimerEvent: {}
+[5.556348] (-) TimerEvent: {}
+[5.657117] (-) TimerEvent: {}
+[5.757870] (-) TimerEvent: {}
+[5.858615] (-) TimerEvent: {}
+[5.959417] (-) TimerEvent: {}
+[6.060300] (-) TimerEvent: {}
+[6.161187] (-) TimerEvent: {}
+[6.261933] (-) TimerEvent: {}
+[6.362791] (-) TimerEvent: {}
+[6.463546] (-) TimerEvent: {}
+[6.564299] (-) TimerEvent: {}
+[6.665110] (-) TimerEvent: {}
+[6.765854] (-) TimerEvent: {}
+[6.866582] (-) TimerEvent: {}
+[6.967386] (-) TimerEvent: {}
+[7.068142] (-) TimerEvent: {}
+[7.168841] (-) TimerEvent: {}
+[7.269568] (-) TimerEvent: {}
+[7.370448] (-) TimerEvent: {}
+[7.471240] (-) TimerEvent: {}
+[7.571985] (-) TimerEvent: {}
+[7.672762] (-) TimerEvent: {}
+[7.773474] (-) TimerEvent: {}
+[7.874305] (-) TimerEvent: {}
+[7.975193] (-) TimerEvent: {}
+[8.075965] (-) TimerEvent: {}
+[8.176756] (-) TimerEvent: {}
+[8.277500] (-) TimerEvent: {}
+[8.378391] (-) TimerEvent: {}
+[8.479387] (-) TimerEvent: {}
+[8.580158] (-) TimerEvent: {}
+[8.680865] (-) TimerEvent: {}
+[8.781564] (-) TimerEvent: {}
+[8.882348] (-) TimerEvent: {}
+[8.983127] (-) TimerEvent: {}
+[9.083844] (-) TimerEvent: {}
+[9.184541] (-) TimerEvent: {}
+[9.285301] (-) TimerEvent: {}
+[9.386057] (-) TimerEvent: {}
+[9.486814] (-) TimerEvent: {}
+[9.587511] (-) TimerEvent: {}
+[9.688280] (-) TimerEvent: {}
+[9.789094] (-) TimerEvent: {}
+[9.889834] (-) TimerEvent: {}
+[9.990564] (-) TimerEvent: {}
+[10.091364] (-) TimerEvent: {}
+[10.192172] (-) TimerEvent: {}
+[10.292867] (-) TimerEvent: {}
+[10.393617] (-) TimerEvent: {}
+[10.494381] (-) TimerEvent: {}
+[10.595229] (-) TimerEvent: {}
+[10.696001] (-) TimerEvent: {}
+[10.796777] (-) TimerEvent: {}
+[10.897501] (-) TimerEvent: {}
+[10.998281] (-) TimerEvent: {}
+[11.099045] (-) TimerEvent: {}
+[11.199781] (-) TimerEvent: {}
+[11.300459] (-) TimerEvent: {}
+[11.401214] (-) TimerEvent: {}
+[11.502143] (-) TimerEvent: {}
+[11.602903] (-) TimerEvent: {}
+[11.703610] (-) TimerEvent: {}
+[11.804367] (-) TimerEvent: {}
+[11.905141] (-) TimerEvent: {}
+[12.005870] (-) TimerEvent: {}
+[12.106594] (-) TimerEvent: {}
+[12.207367] (-) TimerEvent: {}
+[12.308203] (-) TimerEvent: {}
+[12.409015] (-) TimerEvent: {}
+[12.509808] (-) TimerEvent: {}
+[12.610551] (-) TimerEvent: {}
+[12.711345] (-) TimerEvent: {}
+[12.812201] (-) TimerEvent: {}
+[12.913021] (-) TimerEvent: {}
+[13.013852] (-) TimerEvent: {}
+[13.114668] (-) TimerEvent: {}
+[13.215497] (-) TimerEvent: {}
+[13.316233] (-) TimerEvent: {}
+[13.417067] (-) TimerEvent: {}
+[13.517969] (-) TimerEvent: {}
+[13.619076] (-) TimerEvent: {}
+[13.720487] (-) TimerEvent: {}
+[13.821261] (-) TimerEvent: {}
+[13.922081] (-) TimerEvent: {}
+[14.022836] (-) TimerEvent: {}
+[14.123580] (-) TimerEvent: {}
+[14.224415] (-) TimerEvent: {}
+[14.325216] (-) TimerEvent: {}
+[14.426007] (-) TimerEvent: {}
+[14.526807] (-) TimerEvent: {}
+[14.627559] (-) TimerEvent: {}
+[14.728384] (-) TimerEvent: {}
+[14.829200] (-) TimerEvent: {}
+[14.930000] (-) TimerEvent: {}
+[15.030799] (-) TimerEvent: {}
+[15.131567] (-) TimerEvent: {}
+[15.232397] (-) TimerEvent: {}
+[15.333260] (-) TimerEvent: {}
+[15.434226] (-) TimerEvent: {}
+[15.535093] (-) TimerEvent: {}
+[15.636226] (-) TimerEvent: {}
+[15.737285] (-) TimerEvent: {}
+[15.838026] (-) TimerEvent: {}
+[15.938873] (-) TimerEvent: {}
+[16.039798] (-) TimerEvent: {}
+[16.140528] (-) TimerEvent: {}
+[16.241326] (-) TimerEvent: {}
+[16.342177] (-) TimerEvent: {}
+[16.443021] (-) TimerEvent: {}
+[16.543819] (-) TimerEvent: {}
+[16.644537] (-) TimerEvent: {}
+[16.745405] (-) TimerEvent: {}
+[16.846308] (-) TimerEvent: {}
+[16.947239] (-) TimerEvent: {}
+[17.048356] (-) TimerEvent: {}
+[17.149160] (-) TimerEvent: {}
+[17.250102] (-) TimerEvent: {}
+[17.350866] (-) TimerEvent: {}
+[17.451643] (-) TimerEvent: {}
+[17.552439] (-) TimerEvent: {}
+[17.653298] (-) TimerEvent: {}
+[17.754088] (-) TimerEvent: {}
+[17.854884] (-) TimerEvent: {}
+[17.955887] (-) TimerEvent: {}
+[18.056878] (-) TimerEvent: {}
+[18.157794] (-) TimerEvent: {}
+[18.258589] (-) TimerEvent: {}
+[18.359447] (-) TimerEvent: {}
+[18.460250] (-) TimerEvent: {}
+[18.561206] (-) TimerEvent: {}
+[18.661976] (-) TimerEvent: {}
+[18.762978] (-) TimerEvent: {}
+[18.864206] (-) TimerEvent: {}
+[18.964983] (-) TimerEvent: {}
+[19.065779] (-) TimerEvent: {}
+[19.166526] (-) TimerEvent: {}
+[19.267254] (-) TimerEvent: {}
+[19.368078] (-) TimerEvent: {}
+[19.468856] (-) TimerEvent: {}
+[19.569643] (-) TimerEvent: {}
+[19.670460] (-) TimerEvent: {}
+[19.771264] (-) TimerEvent: {}
+[19.872080] (-) TimerEvent: {}
+[19.972869] (-) TimerEvent: {}
+[20.073629] (-) TimerEvent: {}
+[20.174525] (-) TimerEvent: {}
+[20.275428] (-) TimerEvent: {}
+[20.376341] (-) TimerEvent: {}
+[20.477146] (-) TimerEvent: {}
+[20.577910] (-) TimerEvent: {}
+[20.678664] (-) TimerEvent: {}
+[20.779443] (-) TimerEvent: {}
+[20.880294] (-) TimerEvent: {}
+[20.981120] (-) TimerEvent: {}
+[21.081890] (-) TimerEvent: {}
+[21.182737] (-) TimerEvent: {}
+[21.283450] (-) TimerEvent: {}
+[21.384193] (-) TimerEvent: {}
+[21.484982] (-) TimerEvent: {}
+[21.585802] (-) TimerEvent: {}
+[21.686550] (-) TimerEvent: {}
+[21.787349] (-) TimerEvent: {}
+[21.888163] (-) TimerEvent: {}
+[21.988903] (-) TimerEvent: {}
+[22.089661] (-) TimerEvent: {}
+[22.190498] (-) TimerEvent: {}
+[22.291277] (-) TimerEvent: {}
+[22.392081] (-) TimerEvent: {}
+[22.492860] (-) TimerEvent: {}
+[22.593526] (-) TimerEvent: {}
+[22.694372] (-) TimerEvent: {}
+[22.795466] (-) TimerEvent: {}
+[22.896482] (-) TimerEvent: {}
+[22.997262] (-) TimerEvent: {}
+[23.098149] (-) TimerEvent: {}
+[23.199025] (-) TimerEvent: {}
+[23.299793] (-) TimerEvent: {}
+[23.400553] (-) TimerEvent: {}
+[23.501814] (-) TimerEvent: {}
+[23.585579] (lds01_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_node\x1b[0m\n'}
+[23.601846] (-) TimerEvent: {}
+[23.702603] (-) TimerEvent: {}
+[23.803527] (-) TimerEvent: {}
+[23.904669] (-) TimerEvent: {}
+[24.005541] (-) TimerEvent: {}
+[24.106468] (-) TimerEvent: {}
+[24.207808] (-) TimerEvent: {}
+[24.309074] (-) TimerEvent: {}
+[24.410214] (-) TimerEvent: {}
+[24.511401] (-) TimerEvent: {}
+[24.612638] (-) TimerEvent: {}
+[24.713455] (-) TimerEvent: {}
+[24.814306] (-) TimerEvent: {}
+[24.915290] (-) TimerEvent: {}
+[25.016118] (-) TimerEvent: {}
+[25.101254] (lds01_driver) StdoutLine: {'line': b'[100%] Built target lidar_node\n'}
+[25.116314] (-) TimerEvent: {}
+[25.166516] (lds01_driver) CommandEnded: {'returncode': 0}
+[25.169005] (lds01_driver) JobProgress: {'identifier': 'lds01_driver', 'progress': 'install'}
+[25.218954] (lds01_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver'], 'cwd': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andrey', 'SSH_CLIENT': '192.168.131.220 45696 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andrey', 'OLDPWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andrey', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/andrey/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver', 'SSH_CONNECTION': '192.168.131.220 45696 192.168.131.188 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.220309] (-) TimerEvent: {}
+[25.261199] (lds01_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.262214] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node\n'}
+[25.274122] (lds01_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node" to ""\n'}
+[25.275115] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/libparser_lib.a\n'}
+[25.276452] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver\n'}
+[25.277500] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver\n'}
+[25.278351] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/parser.h\n'}
+[25.279862] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/serial.h\n'}
+[25.284086] (lds01_driver) StdoutLine: {'line': b'-- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/gpio.h\n'}
+[25.285296] (lds01_driver) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:82 (file):\n'}
+[25.286514] (lds01_driver) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[25.287306] (lds01_driver) StderrLine: {'line': b'  "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/src/lds01_driver/config":\n'}
+[25.287988] (lds01_driver) StderrLine: {'line': b'  No such file or directory.\n'}
+[25.288571] (lds01_driver) StderrLine: {'line': b'\n'}
+[25.289537] (lds01_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[25.294662] (lds01_driver) CommandEnded: {'returncode': 1}
+[25.321644] (-) TimerEvent: {}
+[25.336033] (lds01_driver) JobEnded: {'identifier': 'lds01_driver', 'rc': 1}
+[25.347951] (-) EventReactorShutdown: {}

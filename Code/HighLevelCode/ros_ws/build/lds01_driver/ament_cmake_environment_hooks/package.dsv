@@ -1,0 +1,4 @@
+source;share/lds01_driver/local_setup.bash
+source;share/lds01_driver/local_setup.dsv
+source;share/lds01_driver/local_setup.sh
+source;share/lds01_driver/local_setup.zsh

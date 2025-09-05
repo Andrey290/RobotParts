@@ -1,1 +1,0 @@
-首次安装ROS kinetic时，需要安装串口驱动，执行命令为：sudo apt-get install ros-kinetic-serial

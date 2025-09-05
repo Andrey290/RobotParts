@@ -1,0 +1,25 @@
+[0.058s] Invoking command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
+[0.400s] [ 16%] [32mBuilding C object CMakeFiles/parser_lib.dir/src/serial.c.o[0m
+[0.645s] [ 33%] [32m[1mLinking C static library libparser_lib.a[0m
+[0.920s] [ 66%] Built target parser_lib
+[1.114s] [ 83%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[23.582s] [100%] [32m[1mLinking CXX executable lidar_node[0m
+[25.098s] [100%] Built target lidar_node
+[25.163s] Invoked command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
+[25.216s] Invoking command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver
+[25.257s] -- Install configuration: ""
+[25.258s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node
+[25.271s] -- Set non-toolchain portion of runtime path of "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node" to ""
+[25.271s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/libparser_lib.a
+[25.273s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver
+[25.274s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver
+[25.275s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/parser.h
+[25.276s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/serial.h
+[25.281s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/gpio.h
+[25.282s] [31mCMake Error at cmake_install.cmake:82 (file):
+[25.283s]   file INSTALL cannot find
+[25.283s]   "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/src/lds01_driver/config":
+[25.284s]   No such file or directory.
+[25.285s] 
+[25.290s] [0m
+[25.291s] Invoked command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver

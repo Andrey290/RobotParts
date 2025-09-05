@@ -1,0 +1,39 @@
+[0.072s] Invoking command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
+[0.762s] [ 16%] [32mBuilding C object CMakeFiles/parser_lib.dir/src/serial.c.o[0m
+[1.652s] [ 33%] [32m[1mLinking C static library libparser_lib.a[0m
+[1.871s] [ 66%] Built target parser_lib
+[2.159s] [ 83%] [32m[1mLinking CXX executable lidar_node[0m
+[3.598s] [100%] Built target lidar_node
+[3.660s] Invoked command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
+[3.726s] Invoking command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver
+[3.775s] -- Install configuration: ""
+[3.778s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node
+[3.794s] -- Set non-toolchain portion of runtime path of "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/lidar_node" to ""
+[3.794s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/lib/lds01_driver/libparser_lib.a
+[3.796s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver
+[3.797s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver
+[3.797s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/parser.h
+[3.798s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/serial.h
+[3.798s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/include/lds01_driver/lds01_driver/gpio.h
+[3.799s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver
+[3.799s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/.keep
+[3.800s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/library_path.sh
+[3.801s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/library_path.dsv
+[3.801s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/package_run_dependencies/lds01_driver
+[3.802s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/parent_prefix_path/lds01_driver
+[3.802s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/ament_prefix_path.sh
+[3.803s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/ament_prefix_path.dsv
+[3.803s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/path.sh
+[3.804s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/environment/path.dsv
+[3.804s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.bash
+[3.805s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.sh
+[3.805s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.zsh
+[3.806s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/local_setup.dsv
+[3.806s] -- Installing: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/package.dsv
+[3.809s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/ament_index/resource_index/packages/lds01_driver
+[3.809s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.810s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.810s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/lds01_driverConfig.cmake
+[3.811s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/cmake/lds01_driverConfig-version.cmake
+[3.811s] -- Up-to-date: /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/install/lds01_driver/share/lds01_driver/package.xml
+[3.819s] Invoked command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver

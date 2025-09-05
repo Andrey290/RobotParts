@@ -1,0 +1,19 @@
+[0.073s] Invoking command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
+[0.602s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.793s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.055s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.119s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.635s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.648s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.055s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.397s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.693s] [31mCMake Error at CMakeLists.txt:23 (target_link_libraries):
+[3.694s]   Cannot specify link libraries for target "parser_lib" which is not built by
+[3.694s]   this project.
+[3.695s] 
+[3.695s] [0m
+[3.696s] -- Configuring incomplete, errors occurred!
+[3.772s] gmake: *** [Makefile:362: cmake_check_build_system] Error 1
+[3.784s] Invoked command in '/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/build/lds01_driver -- -j4 -l4
