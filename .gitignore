@@ -1,0 +1,66 @@
+# Игнорировать артефакты сборки colcon
+build/
+install/
+log/
+
+# Игнорировать файлы сборки CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+*.cmake
+*.cbp
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Игнорировать артефакты компиляции C/C++
+*.o
+*.ko
+*.obj
+*.d
+
+# Игнорировать исполняемые файлы (если они не находятся в install/)
+*.exe
+*.out
+*.app
+
+# Игнорировать файлы проектов IDE
+.vscode/
+.idea/
+*.project
+*.cproject
+*.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы резервных копий и временные файлы
+*~
+*.backup
+*.patch
+*.diff
+*.tmp
+*.swp
+
+# Игнорировать пользовательские файлы конфигурации (если есть)
+*.user
+*.userprefs
+
+# Игнорировать документацию, сгенерированную Doxygen
+doc/html/
+doc/latex/
+
+# Игнорировать пакеты PIP (если используется)
+*.egg-info/
+*.egg
+pip-delete-this-directory.txt
+
+# Игнорировать лог-файлы
+*.log
+logs/
