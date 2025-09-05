@@ -1,2 +1,0 @@
-/usr/bin/ar qc libparser_lib.a CMakeFiles/parser_lib.dir/src/parser.c.o CMakeFiles/parser_lib.dir/src/serial.c.o CMakeFiles/parser_lib.dir/src/gpio.c.o
-/usr/bin/ranlib libparser_lib.a

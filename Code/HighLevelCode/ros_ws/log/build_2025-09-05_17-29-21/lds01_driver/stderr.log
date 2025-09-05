@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:82 (file):
-  file INSTALL cannot find
-  "/home/andrey/Documents/RobotParts/Code/HighLevelCode/ros_ws/src/lds01_driver/config":
-  No such file or directory.
-
-[0m
