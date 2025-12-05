@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_lidar_node</name>
+  <version>0.0.1</version>
+  <description>Custom LIDAR node wrapper</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- build / exec deps для ros -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+
+  <build_depend>sensor_msgs</build_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <build_depend>python3</build_depend>
+  <exec_depend>python3</exec_depend>
+
+  <!-- если нужны другие зависимости, добавляй соответствующие теги -->
+</package>
+

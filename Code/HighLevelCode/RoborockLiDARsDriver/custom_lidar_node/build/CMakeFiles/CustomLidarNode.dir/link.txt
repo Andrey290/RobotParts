@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/CustomLidarNode.dir/src/main.c.o CMakeFiles/CustomLidarNode.dir/src/parser.c.o CMakeFiles/CustomLidarNode.dir/src/gpio.c.o CMakeFiles/CustomLidarNode.dir/src/serial.c.o -o CustomLidarNode  -Wl,-rpath,/usr/local/lib -lm -lm /usr/local/lib/libpigpio.so -lpthread 
