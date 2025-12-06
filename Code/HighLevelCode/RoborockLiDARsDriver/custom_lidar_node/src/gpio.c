@@ -1,5 +1,5 @@
 // src/gpio.c
-#include "../inc/gpio.h"
+#include "../include/gpio.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <pigpiod_if2.h>
